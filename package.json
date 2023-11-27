@@ -1,6 +1,6 @@
 {
   "name": "rails-request-json",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "JSON shorthand functions for @rails/request.js",
   "main": "index.js",
   "author": "Micah Geisel <micah@botandrose.com>",
