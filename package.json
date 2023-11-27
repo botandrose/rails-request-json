@@ -1,8 +1,9 @@
 {
   "name": "rails-request-json",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "JSON shorthand functions for @rails/request.js",
   "main": "index.js",
+  "module": "index.js",
   "author": "Micah Geisel <micah@botandrose.com>",
   "repository": "https://github.com/botandrose/rails-request-json",
   "license": "ISC",
