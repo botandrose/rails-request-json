@@ -6,8 +6,10 @@ const request = (verb, url, payload) => {
     body: payload,
   })
   return req.perform().then(response => {
-    if(response.response.headers.get('Content-Length') > 0) {
+    if(response.response.ok) {
       return response.json
+    } else {
+      return response
     }
   })
 }
