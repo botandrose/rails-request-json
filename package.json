@@ -1,6 +1,6 @@
 {
   "name": "rails-request-json",
-  "version": "0.1.3",
+  "version": "0.2.0",
   "description": "JSON shorthand functions for @rails/request.js",
   "main": "index.js",
   "module": "index.js",
